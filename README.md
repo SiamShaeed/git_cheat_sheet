@@ -1,4 +1,4 @@
-<h1>Complete git cheat sheet</h1>
+<h2>Git Cheat Sheet</h2>
 
 <p>A distributed version control system is a system that helps you keep track of changes you've made to files in your project.
 
@@ -8,6 +8,10 @@ Git makes collaboration easy. Everyone on the team can keep a full backup of the
 
 This way, different members of the team can copy it locally and everyone has a clear overview of all changes made by the whole team.
 </p>
+<h2>How to check your Git version:</h2>
+<pre>
+  git --version
+</pre>
 
 <h2>How to check your Git configuration:</h2>
 <p>The command below returns a list of information about your git configuration including user name and email:</p>
@@ -16,15 +20,10 @@ This way, different members of the team can copy it locally and everyone has a c
 </pre>
 
 <h2>How to setup your Git username:</h2>
-<p>With the command below you can configure your user name:</p>
+<p>With the command below you can configure your username: and email</p>
 <pre>
-  git config --global user.name "siam"
-</pre>
-
-<h2>How to setup your Git user email:</h2>
-<p>This command lets you setup the user email address you'll use in your commits.</p>
-<pre>
-  git config --global user.email "siam@gmail.com"
+  git config --global user.name "username"
+  git config --global user.email "email"
 </pre>
 
 <h2>How to cache your login credentials in Git:</h2>
